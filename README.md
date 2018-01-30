@@ -2,7 +2,7 @@
 
 ## 1) Download appropriate version of Hive
 
-Chage user to "hadoop" and downlaod Hive archive (from https://pig.apache.org/releases.html) to home directory of "hadoop" user. Choose the Hive version that is copatible with currently installed Hadoop version.
+Chage user to "hadoop" and downlaod Hive archive (from https://hive.apache.org/downloads.html) to home directory of "hadoop" user. Choose the Hive version that is copatible with currently installed Hadoop version.
 ```
 su - hadoop
 wget -b http://www-eu.apache.org/dist/hive/hive-1.2.2/apache-hive-1.2.2-bin.tar.gz
