@@ -1,4 +1,4 @@
-# Install Hive on Centos 7
+# Install Apache Hive on Centos 7
 
 ## 1) Download appropriate version of Pig
 
