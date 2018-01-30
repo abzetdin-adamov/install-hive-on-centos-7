@@ -58,7 +58,7 @@ hdfs dfs -chmod g+w /tmp
 ```
 
 ## 5) Inform Hive about home directory of Hadood
-Edit hive-config.sh at HIVE_HOME/bin to inform Hive about home directory of Hadood
+Edit hive-config.sh at HIVE_HOME/bin to inform Hive about home directory of Hadoop
 ```
 cd
 vi $HIVE_HOME/bin/hive-config.sh
