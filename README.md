@@ -1,8 +1,8 @@
 # Install Hive on Centos 7
 
-## 1) Download appropriate version of Pig from https://pig.apache.org/releases.html
+## 1) Download appropriate version of Pig
 
-Chage user to "hadoop" and downlaod Hive archive to home directory of "hadoop" user
+Chage user to "hadoop" and downlaod Hive archive (from https://pig.apache.org/releases.html) to home directory of "hadoop" user
 ```
 su - hadoop
 wget -b http://www-eu.apache.org/dist/hive/hive-1.2.2/apache-hive-1.2.2-bin.tar.gz
