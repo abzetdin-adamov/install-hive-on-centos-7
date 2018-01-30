@@ -8,19 +8,24 @@ su - hadoop
 wget -b http://www-eu.apache.org/dist/hive/hive-1.2.2/apache-hive-1.2.2-bin.tar.gz
 ```
 
-Extract archive 
+## 2) Extract archive 
+```
 tar -xvf apache-hive-1.2.2-bin.tar.gz
+```
 
-Edit .bash_profile of hadoop user
-
+## 3) Edit .bash_profile of "hadoop" user
+```
 vi .bash_profile
-
+```
 add following settings:
+```
 export HIVE_HOME=/home/hadoop/apache-hive-1.2.2-bin
 export PATH=$PATH:/home/hadoop/apache-hive-1.2.2-bin/bin
-
+```
 to apply changes:
+```
 source .bash_profile
+```
 
 Now its time to create HIVE directory in Hadoop HDFS 
 
